@@ -1,0 +1,141 @@
+/* Animated background colors */
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* For removing unsightly hyperlink blue lines */
+a:-webkit-any-link{
+  text-decoration:none !important;
+}
+
+/* Elements */
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Italiana", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h2, h3, h4, h5 {
+  font-family: "Italiana", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Fonts */
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*
+ <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900
+*/
+
+.noto-sans-font {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Others */
+
+.navbar-brand-custom {
+  font-family: "Italiana", sans-serif;
+  letter-spacing: 1px;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.jumbotron {
+  background-size: cover;
+  height: 100%;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.header-jumbotron {
+/*  background-position: center center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-image {
+  object-position: 0% 50%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.header-kulon {
+  background-position: 0% 35%;
+  margin-top: 0rem;
+}
+
+.header-ono {
+  background-position: 0% 45%;
+  margin-top: 0rem;
+}
+
+.header-text {
+  background-color: rgba(253,253,253,0.5)
+}
+
+.menu-ono-image {
+  object-fit: cover;
+  object-position: 60% 40%;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.footer-icon {
+  margin-right: 5px;
+}
+
+.brand-text {
+  background-color: rgba(3,3,3,0.5);
+}
+
+.carousel-image {
+  border-radius: 50px;
+}
+
+.hyperlink-custom {
+  color: black;
+}

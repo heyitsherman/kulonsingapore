@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍜 Kulon Pte. Ltd. - South East Asian Noodle Culture for Discerning Tastes</title>
+  
+  <!-- Add founder page -->
+
+  <!-- Stylesheet, Bootstrap -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark fixed-top" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand navbar-brand-custom" href="index.html">🍜 Kulon Pte. Ltd.</a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#brands" data-bs-toggle="dropdown" aria-expanded="false">Brands</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="kulon.html">Kulon Bakmi</a></li>
+              <li><a class="dropdown-item" href="ono.html">Ono Ramen</a></li>
+            </ul>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="#careers">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#media">Media</a>
+          </li>
+          -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Us - Jumbotron -->
+  <!-- <section id="jumbotron" 
+            class="header-jumbotron" 
+            style="background-image: url('https://kulonsingapore.com/wp-content/uploads/2021/05/header-1-1.jpg');"
+  > -->
+  <section id="about-us">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <!-- Right column, keep empty -->
+           <!--<img src="images\header-kulon.jpg" height="550.66px" width="487px" class="jumbotron-image" alt="Food at Kulon">-->
+           <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images\carousel-01.jpg" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images\carousel-02.jpg" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images\carousel-03.jpg" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images\carousel-04.jpg" class="d-block w-100 carousel-image" alt="...">
+              </div>
+            </div>
+            <!--
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            -->
+          </div>
+          
+        </div>
+        <div class="col-lg-6">
+          <p class="lead">About Kulon Pte. Ltd.</p>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">South East Asian noodle culture for discerning tastes</h1>
+          <p class="lead">Ono Ramen and Kulon Bakmi bring together the best of Japanese and Indonesian noodle traditions in Singapore. Ono Ramen offers bold, modern ramen with a creative twist, while Kulon Bakmi delivers scrumptious and hearty Indonesian noodles. Both brands focus on quality and flavor, enriching Singapore's vibrant culinary scene with their unique culinary offerings.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="about.html"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Read more</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands - Features -->
+  <section id="brands">
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom fw-bold">Our Brands</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+        <div class="col">
+          <a href="kulon.html">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/main-brand-kulon.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Kulon Bakmi</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="images/logo-kulon.jpg" alt="Kulon Bakmi" width="32" height="32" class="rounded-circle border border-white">
+                  </li> 
+                  <li class="d-flex align-items-center me-3">
+                    <small class="brand-text">Indonesian Dry Noodles</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+  
+        <div class="col">
+          <a href="ono.html">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/main-brand-ono.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ono Ramen</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="images/logo-ono.jpg" alt="Ono Ramen" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <small class="brand-text">Indonesian-style Ramen</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Careers - Jumbotron -->
+  <section id="careers">
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom fw-bold">Careers</h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">No openings at the moment.</h3>
+          <!--
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Front of House</h3>
+            <p>Ono Ramen</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Apply Now!</button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Front of House</h3>
+            <p>Kulon</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Apply Now!</button>
+            </div>
+          </div>
+          -->
+        </div>
+        <!--
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Media -->
+   <!--
+  <section id="media">
+    <div class="container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom fw-bold">Media</h2>
+      -->
+      <!--
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Gallery</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <a href="#" class="btn btn-primary">
+              Primary button
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <a href="#" class="btn btn-primary">
+              Primary button
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <a href="#" class="btn btn-primary">
+              Primary button
+            </a>
+          </div>
+        </div>
+      </div>
+    -->
+      <!--
+    </div>
+  </section>
+  -->
+  <!-- Contact Us -->
+  <section id="contact-us">
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom fw-bold">Contact Us</h2>
+  
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="fw-bold text-body-emphasis"> </h2>
+          <!--<p class="text-body-secondary"> </p>-->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4312.31665932027!2d103.85684819460569!3d1.3028208868215443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19ac57fbfc01%3A0xdafd9bee332ec9f5!2sOno%20Ramen!5e1!3m2!1sen!2ssg!4v1737746003511!5m2!1sen!2ssg" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+  
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-1 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Head Office</h4>
+                <p class="text-body-secondary">734 North Bridge Road, Singapore 198702</p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Contact Us</h4>
+                <a href="mailto:admin@kulonsingapore.com">
+                  <p class="text-body-secondary">admin@kulonsingapore.com</p>
+                </a>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Catering</h4>
+                <a href="mailto:catering@kulonsingapore.com">
+                  <p class="text-body-secondary">catering@kulonsingapore.com</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <p class="text-body-secondary">© 2025 Kulon Pte. Ltd.</p>
+          <a href="https://www.instagram.com/kulon.sg/" target="_blank" rel="noopener noreferrer" >
+            <img src="images\icon-ig-kulon.png" class="rounded-circle footer-icon" width="30px" height="30px">
+          </a>
+          <a href="https://www.instagram.com/ono.ramen/" target="_blank" rel="noopener noreferrer" >
+            <img src="images\icon-ig-ono.png" class="rounded-circle footer-icon" width="30px" height="30px">
+          </a>
+          <a href="https://www.linkedin.com/company/kulon-pte-ltd" target="_blank" rel="noopener noreferrer" >
+            <img src="images\icon-linkedin.png" class="footer-icon" width="30px" height="30px">
+          </a>
+        </div>
+
+        <div class="col mb-1">
+          <h5 class="fw-bold">Quick Links</h5>
+          <ul class="nav flex-column">
+            <!--class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"-->
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-body-secondary">About Us</a></li>
+            <li class="nav-item mb-2"><a href="brands.html" class="nav-link p-0 text-body-secondary">Our Brands</a></li>
+            <!--
+            <li class="nav-item mb-2"><a href="#careers" class="nav-link p-0 text-body-secondary">Careers</a></li>
+            <li class="nav-item mb-2"><a href="#media" class="nav-link p-0 text-body-secondary">Media</a></li>
+            -->
+            <li class="nav-item mb-2"><a href="contact-us.html" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-1">
+          <h5 class="fw-bold">Our Brands</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="kulon.html" class="nav-link p-0 text-body-secondary">Kulon</a></li>
+            <li class="nav-item mb-2"><a href="ono.html" class="nav-link p-0 text-body-secondary">Ono Ramen</a></li>
+          </ul>
+        </div>
+
+      </footer>
+    </div>
+  </section>
+</body>
+
+</html>
